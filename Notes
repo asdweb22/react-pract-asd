@@ -1,0 +1,34 @@
+**\*\*\*\***\*\***\*\*\*\***why react\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***
+1)Building user interface
+2)Makes easy to manage complex frontend UI
+
+**\*\*\*\***\*\*\***\*\*\*\***when should i learned react**\*\***\*\*\*\***\*\***\***\*\***\*\*\*\***\*\***
+1)mastery Javascript
+-thread execution of javascipt, execution context, how functions come goes into memory,
+DomManipulation,
+
+2)mostly short projects in react calling api hit and show data in cart, we can do as well same using javascript using fetch method
+
+**\*\*\*\***\*\*\***\*\*\*\***Why react was created**\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***
+State: variables in js and React
+UI :manaage by DOM
+
+-due to sync problem between dom and state or varables
+
+**\*\*\*\***\*\*\***\*\*\*\***React is a library\***\*\*\*\*\***\*\*\***\*\*\*\*\***\*\*\***\*\*\*\*\***\*\*\***\*\*\*\*\***
+
+-Freamework : set of pre defined rules  
+-Library : customize based on our requiremeent (freedom)
+
+**\*\*\*\***\*\*\*\***\*\*\*\***Core react\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\*\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***
+-State or UI manipulation
+-Components reusability: ex. same button we want to use in most of the pages, or same card
+-reusing components we learn Props(properties means key value paire)
+-how to propogate changes (hooks) variables are changes using hooks in react
+
+**\*\*\*\***\*\*\*\***\*\*\*\***Additional addon to react\***\*\*\*\*\***\*\*\***\*\*\*\*\***
+-Router(react router dom)
+-State management :javascript library(Redux, redux toolkit, context api )
+
+****\*\*****\*\*\*****\*\*****React Documentation******\*\*\*\*******\*\*******\*\*\*\*******
+https://react.dev
