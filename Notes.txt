@@ -1,0 +1,115 @@
+**\*\*\*\***\*\***\*\*\*\***why react\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***
+1)Building user interface
+2)Makes easy to manage complex frontend UI
+
+**\*\*\*\***\*\*\***\*\*\*\***when should i learned react**\*\***\*\*\*\***\*\***\***\*\***\*\*\*\***\*\***
+1)mastery Javascript
+-thread execution of javascipt, execution context, how functions come goes into memory,
+DomManipulation,
+
+2)mostly short projects in react calling api hit and show data in cart, we can do as well same using javascript using fetch method
+
+**\*\*\*\***\*\*\***\*\*\*\***Why react was created**\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***
+State: variables in js and React
+UI :manaage by DOM
+
+-due to sync problem between dom and state or varables
+
+**\*\*\*\***\*\*\***\*\*\*\***React is a library\***\*\*\*\*\***\*\*\***\*\*\*\*\***\*\*\***\*\*\*\*\***\*\*\***\*\*\*\*\***
+
+-Freamework : set of pre defined rules  
+-Library : customize based on our requiremeent (freedom)
+
+**\*\*\*\***\*\*\*\***\*\*\*\***Core react\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***\*\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***
+-State or UI manipulation
+-Components reusability: ex. same button we want to use in most of the pages, or same card
+-reusing components we learn Props(properties means key value paire)
+-how to propogate changes (hooks) variables are changes using hooks in react
+
+**\*\*\*\***\*\*\*\***\*\*\*\***Additional addon to react\***\*\*\*\*\***\*\*\***\*\*\*\*\***
+-Router(react router dom)
+-State management :javascript library(Redux, redux toolkit, context api )
+
+\***\*\*\*\*\***\*\*\*\***\*\*\*\*\***React Documentation**\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***
+https://react.dev
+
+--------------------------------------------------------------------------------------------
+
+React->react dom(web) and react-native(mobile)
+
+---------------------------------------------------------------------------------------------
+
+npx create-react-app my-app
+-its bulky 
+-but its take too much time to create app
+-Node package Executor(npx) we want to execute directly into system
+-create-react-app ->utility(software) we can create project
+
+Note: good option and recommendation is use vite 
+we can use react without Freamework
+
+use->  
+- npm create vite@latest   (vite is a library to reate react project very faster way than previous method)
+- provide all the details 
+- cd project_name
+-dir  //to see all the project folders
+-npm install (it will install all the dependencies)
+-npm run dev
+
+-------------------------------------------------------------------------------------------
+
+package.json:- entry point look project name,dependencies, scripts are use to ready for production
+ to execute project like 
+-"start" use for dev mode 
+-"build" for production behaviour  browser knows only js,html,css buddle to create we use build
+-"test" : for testing purpose
+
+
+-npm run build
+:creates a build folder and this build folder contains static assets, react js converted into js 
+when we deploy ptoject on  production env then this build is served to users  
+
+
+
+dev dependencies: it will not going on production used at the time of development  
+--------------------------------------------------------------------------------------------------
+
+
+*************folder structure of vite project**********************************
+
+node-modules(folder)
+
+src->(folder)
+1)app.js
+2)main.js
+
+index.html
+.gitignore
+package.json
+
+*********************************Topics*************************************************
+1)Basic understanding and folder structure of react project using create-react-app vs npm create@vite,best pratices
+2)Simple useState hook With Counter application
+3)createRoot method in index.js/main.js
+
+this method will create virtual Dom structure for ussame like browser
+it compares main dom and our Dom and update only those changes which are update 
+
+note: react behind the scene uses a fiber algorithm to update virtual dom 
+note: reconciliation its a react differentiate algorithm what exatctly update in old files and new updated files, so which part need to update is called reconciliation 
+
+---------------------------------------------------------------------------------------------------------
+
+*************components reusability*********************************
+
+-tailwind
+-components card we created
+-passing values to card(child) from app(parent) components
+-we can pass values from one components to another component using Props
+-also set default values for card button name
+
+-----------------------------Congratulations Basic react is end here-----------------------------------------------
+
+
+
+
