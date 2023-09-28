@@ -110,6 +110,23 @@ note: reconciliation its a react differentiate algorithm what exatctly update in
 
 -----------------------------Congratulations Basic react is end here-----------------------------------------------
 
+project: 02bgchnager
+sumerry:
+-onclick event change bg-color
+-default color setting
+------------------------------------------------------------------------------------------------
+
+project: 03passwordGenerator 
+sumerry:
+-variables collected length,number allows,character allowed,password
+-passwordgenerator method created
+-optimization ->usecallback() memorize function
+-useEffect callling at the time of page loading, dependency array
+-used tailwing and created ui part 
+-copy to clipboard 
+-useRef hook ->it takes ref of element and can easily manipulate element
+   
+
 
 
 
