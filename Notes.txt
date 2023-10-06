@@ -162,3 +162,11 @@ stateless components are pure function doesn't have  local state to manage so we
 
 1)useState: 
 ->
+
+-----------------------------------------------------------------------------------------------------------------------
+
+************ContextApi Crash Course with Project**********************************
+-To avoid props drilling we used context api  
+-we different state management ways like redux ,react-redux, redux/toolit(RTK) , 
+
+so basically we created global variable global data then we can easily accesss in any component of application
