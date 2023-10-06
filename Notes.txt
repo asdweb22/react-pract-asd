@@ -128,5 +128,37 @@ sumerry:
    
 
 
+-----------------------------------------------------------------------------------------
+
+project : 04_curencyConvertor
+
+note : when we calling any api we get data in string format we need to convert into json
+
+-created custom hook useCurrencyInfo
+-components creation 
 
 
+note : due to git hub not open, so we stopped this project as of now
+---------------------------------------------------------------------------------------------------
+
+project 05: React router crash course with tailwind css
+
+-Menu items Home about contact github
+-integrate github api and get github data profile details(github menu)
+-myparams 123  we will learn how to capture parameters
+
+
+interview Q>a
+1) <a>tag(refresh the page) vs <Link /> (changing content without reloading page)   
+
+---------------------------------------------------------------------------------------------------
+
+
+React Hooks:
+
+note :class components are stateful components(maintain state) and functional components are stateless(do not mentain state)
+stateless components are pure function doesn't have  local state to manage so we can not maintain state in functional component
+
+
+1)useState: 
+->
