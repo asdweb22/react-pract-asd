@@ -4,15 +4,21 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import AddTodo from "./components/AddTodo";
 import Todos from "./components/Todos";
+import PractTodo from "./components/PractTodo";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <h1 className="text-orange-800">Learn About Redux Tookit</h1>
       <AddTodo />
       <Todos />
+
+      <hr />
+      <br />
+      <h2 className="bg-primary text-white">
+        My Basic todo app with localstorage
+      </h2>
+      <PractTodo />
     </>
   );
 }

@@ -12,7 +12,12 @@ function Todos() {
       {todos.map((todo) => (
         <li key={todo.id}>
           {todo.text}
-          <button onClick={() => dispatch(removeTodo(todo.id))}>X</button>
+          <button
+            className="btn btn-danger"
+            onClick={() => dispatch(removeTodo(todo.id))}
+          >
+            X
+          </button>
         </li>
       ))}
     </>
